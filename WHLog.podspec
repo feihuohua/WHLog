@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-   创建一个测试cocoapod的demo
+   创建一个测试cocoapod的demo,就是为了测试一下，这还短吗
                    DESC
 
   s.homepage     = "https://github.com/feihuohua/WHLog"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundation", "UIKit"
+  #s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
