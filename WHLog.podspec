@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WHLog"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "WHLog is a demo for my test , which is the demo for CocoaPods"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/feihuohua/WHLog.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/feihuohua/WHLog.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,6 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency "SDWebImage", "~> 3.8"
 
 end
