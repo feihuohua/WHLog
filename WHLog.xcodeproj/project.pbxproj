@@ -16,9 +16,9 @@
 		0921887121DF019C001BBC05 /* WHLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921887021DF019C001BBC05 /* WHLogTests.m */; };
 		0921887C21DF019C001BBC05 /* WHLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921887B21DF019C001BBC05 /* WHLogUITests.m */; };
 		0921888C21DF04CE001BBC05 /* WHLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921888B21DF04CE001BBC05 /* WHLog.m */; };
-		0921888F21DF055A001BBC05 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0921888E21DF055A001BBC05 /* h1.jpg */; };
 		0921889221DF0569001BBC05 /* qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0921889021DF0568001BBC05 /* qq@2x.png */; };
 		0921889321DF0569001BBC05 /* qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0921889121DF0569001BBC05 /* qq@3x.png */; };
+		09292E4621DF2D0000516DF6 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09292E4521DF2D0000516DF6 /* h1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +57,9 @@
 		0921887D21DF019C001BBC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0921888A21DF04CE001BBC05 /* WHLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLog.h; sourceTree = "<group>"; };
 		0921888B21DF04CE001BBC05 /* WHLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLog.m; sourceTree = "<group>"; };
-		0921888E21DF055A001BBC05 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		0921889021DF0568001BBC05 /* qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq@2x.png"; sourceTree = "<group>"; };
 		0921889121DF0569001BBC05 /* qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq@3x.png"; sourceTree = "<group>"; };
+		09292E4521DF2D0000516DF6 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +155,9 @@
 		0921888D21DF0529001BBC05 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				09292E4521DF2D0000516DF6 /* h1.jpg */,
 				0921889021DF0568001BBC05 /* qq@2x.png */,
 				0921889121DF0569001BBC05 /* qq@3x.png */,
-				0921888E21DF055A001BBC05 /* h1.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -271,8 +271,8 @@
 				0921889221DF0569001BBC05 /* qq@2x.png in Resources */,
 				0921886421DF019B001BBC05 /* LaunchScreen.storyboard in Resources */,
 				0921886121DF019B001BBC05 /* Assets.xcassets in Resources */,
-				0921888F21DF055A001BBC05 /* h1.jpg in Resources */,
 				0921885F21DF019B001BBC05 /* Main.storyboard in Resources */,
+				09292E4621DF2D0000516DF6 /* h1.jpg in Resources */,
 				0921889321DF0569001BBC05 /* qq@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
