@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "WHLog/Resources/*.jpg", "WHLog/Resources/*.png"
+  s.resources = "WHLog/Resources/*.png", "WHLog/Resources/*.jpg"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
