@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'WHLog' do
 
-  pod 'AFNetworking', '~> 3.1.0'
+  pod 'AFNetworking', '~> 3.2.1'
 
   pod 'SDWebImage', '~> 3.8'
 
