@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "WHLog"
   s.version      = "1.0.2"
-  s.summary      = "WHLog is a demo for my test , which is the demo for CocoaPods"
+  s.summary      = "WHLog is a demo for my test"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
