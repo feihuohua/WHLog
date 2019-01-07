@@ -6,6 +6,6 @@ target 'WHLog' do
 
   pod 'AFNetworking', '~> 3.2.1'
 
-  pod 'SDWebImage', '~> 3.8'
+#pod 'SDWebImage', '~> 3.8'
 
 end

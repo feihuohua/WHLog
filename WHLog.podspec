@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'AFNetworking', '~> 3.2.1'
-  s.dependency 'SDWebImage', '~> 3.8'
+  #s.dependency 'SDWebImage', '~> 3.8'
 
 end
